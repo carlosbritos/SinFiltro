@@ -5,6 +5,12 @@
   font-weight: 700;
   font-size: 24px; }
 
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
 body {
   background: #ff1b4c;
   transition: ease 1s; }
@@ -271,18 +277,28 @@ footer svg {
   font-family: Ananda;
   src: url(../assets/Fuente/Ananda\ Personal\ Use.ttf); }
 .lados {
-  color: white; }
+  background: #222; }
   .lados div {
+    color: white;
     font-size: 3em;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center; }
   .lados .divertido {
-    background: red;
-    font-family: 'Raleway', sans-serif; }
-  .lados .responsable {
-    background: goldenrod;
+    background: #8a191d;
+    background: linear-gradient(45deg, #8a191d 0%, #c13634 29%, #c75756 67%, #c13634 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a191d', endColorstr='#c13634', GradientType=1 ); }
+    .lados .divertido div {
+      font-family: 'Raleway', sans-serif; }
+  .lados .responsable .responsable-color {
+    height: 20%;
+    width: 6em;
+    font-size: 1em;
+    background: linear-gradient(45deg, #755219 0%, #b0892b 18%, #d3ab36 47%, #cbbd79 67%, #d3ab36 92%, #b0892b 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#755219', endColorstr='#b0892b', GradientType=1 );
     font-family: 'Ananda', Arial, Helvetica, sans-serif; }
 
 @media (max-width: 837px) {

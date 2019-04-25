@@ -6,7 +6,13 @@
   font-family: 'PT Serif', serif;
   font-weight: 700;
   font-size: 24px;
-
+  
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
 }
 body{
   background: $color-principal;
@@ -345,8 +351,9 @@ footer svg{
 
 
 .lados{
-  color: white;
+  background: #222;
   div{
+    color: white;
     font-size: 3em;
     height: 100vh;
     display: flex;
@@ -354,12 +361,29 @@ footer svg{
     justify-content: center;
   }
   .divertido{
-    background: red;
-    font-family: 'Raleway', sans-serif;
+
+    // degradado
+    background: #8a191d;
+    background: linear-gradient(45deg, #8a191d 0%, #c13634 29%, #c75756 67%, #c13634 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a191d', endColorstr='#c13634', GradientType=1 );
+    // ---
+    // background: red;
+    div{
+      font-family: 'Raleway', sans-serif;
+    }
   }
-  .responsable{
-    background: goldenrod;
+  .responsable{    
+    .responsable-color{
+    height: 20%;
+    width: 6em;
+    font-size: 1em;
+    background: linear-gradient(45deg, rgba(117,82,25,1) 0%, rgba(176,137,43,1) 18%, rgba(211,171,54,1) 47%, rgba(203,189,121,1) 67%, rgba(211,171,54,1) 92%, rgba(176,137,43,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#755219', endColorstr='#b0892b', GradientType=1 );
+
     font-family: 'Ananda', Arial, Helvetica, sans-serif;
+    }
   }
 }
 
