@@ -1,0 +1,376 @@
+@import '_variables';
+
+/* ----- GLOBALES ----- */
+*{
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 24px;
+
+}
+body{
+  background: $color-principal;
+  transition: ease 1s;
+}
+.row{
+  margin: 0;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+}
+
+/* ----- HEADER ----- */
+header{
+  background: $color-principal;
+  transition: .2s;
+  
+  .contheader{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    height: 70px;
+   
+    svg{
+      height: 50px;
+      transition: .2s;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+}
+
+
+
+
+/* -------CREADOR------- */
+.creador{
+  width: 100%;
+  margin: 0;
+}
+
+.contnombre{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.contfondo{
+  width: 100%;
+
+}
+
+.creador img{
+  width: 100%;
+  
+}
+/* ---------------- */
+/* SLIDER VALORES */
+.valores{
+  margin: auto;
+  margin-top: 30px;
+  /* max-width: 800px; */
+}
+
+.item h2{
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.owl-item{
+  background: rgba(0, 0, 0, .7);
+}
+
+.owl-carousel{
+  background: url(../assets/fondo-creador/fondo1-01.png);
+
+  background-position: center; /* Center the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+
+}
+
+/* COLORES 1*/
+.contCambiodecolor{
+  height: auto;
+  margin-top: 30px;
+}
+.colorescent .activecolor{
+  width:90px;
+  height:90px;
+}
+.colorescent{
+  margin: auto;
+  color: white;
+  height: 100px;
+}
+.colorescent .circulo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: white solid 3px;
+  transition: ease .2s;
+/* 
+  position: absolute;
+  right: 0; */
+}
+
+
+.circulo.aPrincipal{
+  background: #222;
+  position: absolute;
+  right: 0;
+}
+.circulo.aComp1{
+  background: $color-principal;
+  margin: auto;
+}
+.circulo.aComp2{
+  background: white;
+  border: #222 solid 3px;
+}
+
+.nombrecolor{
+  margin-bottom: 15px;
+}
+.nombrecolor:last-child{
+  margin-bottom: 0;
+}
+
+
+
+/* COLORES 2*/
+
+.contColores{
+  margin: 30px auto 0;
+  
+  max-width: 800px;
+  height: 300px; 
+  
+  background: grey;
+}
+
+.contColores div{
+  color: white;
+  
+}
+.contColores div h1{
+  font-size: .8em;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.contColores .principal{
+  background: #00a0f0;
+}
+.contColores .comp1{
+  background: #00aef3;
+}
+.contColores .comp2{
+  background: #008eee;
+}
+
+.colorActive{
+  height: 100%;
+}
+
+.colorNoActive{
+  height: 0;
+}
+
+.contColores .row{
+  margin: 0;
+}
+
+.principal .colorQ{
+  margin-top: 70px;
+}
+
+.principal p{
+  margin-bottom: 10px;
+}
+
+.comp1, .comp2{
+  padding: 0 30px 0;
+}
+
+.tipografia{
+  margin: 30px auto 0;
+  color: white;
+  text-align: center;
+}
+
+.tipografia > div{
+  background: rgba(0, 0, 0, .3);
+  padding-bottom: 15px;
+}
+
+.tipografia .fuentePrincipal h1{
+  font-family: 'Pacifico', cursive;
+  padding: 10px 0 0;
+  margin-bottom: 0;
+}
+
+.tipografia .prin h2{
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  font-family: 'Pacifico', cursive;
+}
+
+.tipografia .fuenteComp h1{
+  font-family: 'PT Serif', serif;
+  padding: 10px 0 0;
+  margin-bottom: 0;
+}
+
+/* CONSTRUCCION DEL LOGO*/
+
+/* botones */ 
+  .botones{
+    padding: 20px;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    opacity: 0;
+  }
+  
+  .botones > div{
+    padding: 10px;
+    /* width: 50%; */
+    /* height: 450px; */
+  }
+  
+  .botones > div > div{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;  
+    color: white;
+  }
+  .botones > div:visited > div{
+    background: gray;
+  }
+  
+  .btn-prev div{
+    height: 35px;
+    width: 35px;
+    background: $color-principal; 
+    border-radius: 50%;
+
+    position: absolute;
+    right: 0;
+  }
+  
+  .btn-next div{
+    height: 35px;
+    width: 35px;
+    background: $color-principal; 
+    border-radius: 50%;
+  }
+
+
+/* construccion */
+
+.construction{
+  position: relative;
+
+  .construccionDelLogo{
+    margin: 30px auto 0;
+    position: relative;
+  }
+
+}
+
+
+.construccionDelLogo .contImages:first-child{
+  position: static;
+}
+
+.construccionDelLogo .contImages{
+  margin: 0 auto 0;
+  position: absolute;
+
+  visibility: visible;
+  opacity: 0;
+  top: 0;
+  
+  transition: .5s;
+  
+}
+.construccionDelLogo .contImages img{
+  width: 100%;
+}
+
+.contImages.opacityactive{
+  opacity: 1;
+}
+
+
+
+/* --------------- */
+/* SLIDER APLICACIONES */
+/* .slide{
+  margin-top: 30px;
+} */
+
+footer{
+  width: 100%;
+  height: 100px;
+  background: $color-principal;
+  color: white;
+  text-align: center;
+}
+
+footer svg{
+  height: 100px;
+  opacity: .8;
+}
+
+/* ---SIN FILTRO--- */
+@font-face{
+  font-family: Ananda;
+  src: url(../assets/Fuente/Ananda\ Personal\ Use.ttf)
+}
+
+
+.lados{
+  color: white;
+  div{
+    font-size: 3em;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divertido{
+    background: red;
+    font-family: 'Raleway', sans-serif;
+  }
+  .responsable{
+    background: goldenrod;
+    font-family: 'Ananda', Arial, Helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 837px){
+  .lados div{
+    font-size: 2.8em;
+  }
+}
+@media (max-width: 767px){
+  .lados div{
+    height: 50vh;
+    font-size: 2.5em;
+  }
+}
