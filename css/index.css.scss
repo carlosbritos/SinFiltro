@@ -336,6 +336,12 @@ footer{
   background: $color-principal;
   color: white;
   text-align: center;
+
+// posicionamiento
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -100px;
+// ---
 }
 
 footer svg{
@@ -352,6 +358,9 @@ footer svg{
 
 .lados{
   background: #222;
+  position: fixed;
+  width: 100%;
+
   div{
     color: white;
     font-size: 3em;
@@ -374,7 +383,7 @@ footer svg{
   }
   .responsable{    
     .responsable-color{
-    height: 20%;
+    height: 100%;
     width: 6em;
     font-size: 1em;
     background: linear-gradient(45deg, rgba(117,82,25,1) 0%, rgba(176,137,43,1) 18%, rgba(211,171,54,1) 47%, rgba(203,189,121,1) 67%, rgba(211,171,54,1) 92%, rgba(176,137,43,1) 100%);
