@@ -312,6 +312,20 @@ footer svg {
   .lados div {
     height: 50vh;
     font-size: 2.5em; } }
+/* BOTONES APLIC Y DRIVE */
+.botones-header {
+  font-family: 'raleway',Arial, Helvetica, sans-serif;
+  position: absolute;
+  /* top: 0; */
+  margin-top: -60px;
+  right: 20px; }
+  .botones-header div {
+    font-family: inherit; }
+    .botones-header div a {
+      font-family: inherit; }
+      .botones-header div a .btn {
+        font-family: inherit; }
+
 /* POP UP VARIANTES */
 .fondonegro {
   background: black;
@@ -327,7 +341,7 @@ footer svg {
   background: black; }
   .construction a {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh; }
   .construction .construccionDelLogo {
     position: absolute;
